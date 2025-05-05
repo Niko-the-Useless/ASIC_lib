@@ -1,0 +1,19 @@
+* SPICE3 file created from amp.ext - technology: scmos
+
+.option scale=1u
+
+M1000 Vdd a_4_23# a_4_23# w_5_16# pfet w=6 l=2
++  ad=46p pd=28u as=46p ps=28u
+M1001 a_7_n16# Gnd Gnd w_20_n45# nfet w=6 l=2
++  ad=46p pd=28u as=46p ps=28u
+M1002 a_4_23# In2 a_7_n16# w_5_n16# nfet w=6 l=2
++  ad=46p pd=28u as=46p ps=28u
+M1003 Vdd a_4_23# Gnd w_31_16# pfet w=6 l=2
++  ad=46p pd=28u as=46p ps=28u
+M1004 Gnd Gnd a_7_n16# w_31_n16# nfet w=6 l=2
++  ad=46p pd=28u as=46p ps=28u
+C0 a_7_n16# 0 5.358f **FLOATING
+C1 In2 0 4.29f **FLOATING
+C2 Gnd 0 0.11762p **FLOATING
+C3 a_4_23# 0 14.596f **FLOATING
+C4 Vdd 0 8.648f **FLOATING
