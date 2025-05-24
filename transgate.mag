@@ -1,44 +1,26 @@
 magic
 tech scmos
-timestamp 1747635771
-<< pwell >>
-rect 0 1 12 12
-<< nwell >>
-rect 0 -17 12 -6
-<< polysilicon >>
-rect 5 7 7 10
-rect 5 1 7 3
-rect 5 -8 7 -6
-rect 5 -15 7 -12
-<< ndiffusion >>
-rect 4 3 5 7
-rect 7 3 8 7
-<< pdiffusion >>
-rect 4 -12 5 -8
-rect 7 -12 8 -8
+timestamp 1748092948
 << metal1 >>
-rect 0 0 4 3
-rect -2 -4 4 0
-rect 0 -8 4 -4
-rect 8 0 12 3
-rect 8 -4 14 0
-rect 8 -8 12 -4
-<< ntransistor >>
-rect 5 3 7 7
-<< ptransistor >>
-rect 5 -12 7 -8
-<< polycontact >>
-rect 4 10 8 14
-rect 4 -19 8 -15
-<< ndcontact >>
-rect 0 3 4 7
-rect 8 3 12 7
-<< pdcontact >>
-rect 0 -12 4 -8
-rect 8 -12 12 -8
+rect -1 -11 3 -3
+rect -5 -21 -1 -14
+rect -9 -25 -1 -21
+rect -5 -32 -1 -25
+rect 3 -21 7 -14
+rect 3 -25 11 -21
+rect 3 -32 7 -25
+rect -1 -43 3 -35
+use nmos  nmos_0
+timestamp 1748092009
+transform 1 0 -2 0 -1 -50
+box -3 -24 9 -11
+use pmos  pmos_0
+timestamp 1748092460
+transform 1 0 -4 0 1 6
+box -1 -26 11 -13
 << labels >>
-rlabel metal1 -2 -4 0 0 3 in
-rlabel metal1 12 -4 14 0 7 out
-rlabel polycontact 4 -19 8 -15 1 nq
-rlabel polycontact 4 10 8 14 5 q
+rlabel metal1 -9 -25 -1 -21 3 IN
+rlabel metal1 3 -25 11 -21 7 OUT
+rlabel metal1 -1 -11 3 -3 5 Q
+rlabel metal1 -1 -43 3 -35 1 NQ
 << end >>

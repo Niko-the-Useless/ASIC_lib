@@ -1,98 +1,37 @@
 magic
 tech scmos
-timestamp 1744610112
+timestamp 1748092460
 << pwell >>
-rect 22 -35 32 -19
-rect 22 -61 32 -45
+rect -132 -49 -118 -29
 << nwell >>
-rect 22 -1 32 17
-rect 45 -1 55 17
-<< polysilicon >>
-rect 23 7 24 9
-rect 30 7 33 9
-rect 46 7 47 9
-rect 53 7 56 9
-rect 23 -28 24 -26
-rect 30 -28 33 -26
-rect 23 -54 24 -52
-rect 30 -54 33 -52
-<< ndiffusion >>
-rect 24 -22 25 -19
-rect 29 -22 30 -19
-rect 24 -26 30 -22
-rect 24 -32 30 -28
-rect 24 -35 25 -32
-rect 29 -35 30 -32
-rect 24 -48 25 -45
-rect 29 -48 30 -45
-rect 24 -52 30 -48
-rect 24 -58 30 -54
-rect 24 -61 25 -58
-rect 29 -61 30 -58
-<< pdiffusion >>
-rect 24 13 25 16
-rect 29 13 30 16
-rect 24 9 30 13
-rect 47 13 48 16
-rect 52 13 53 16
-rect 24 3 30 7
-rect 47 9 53 13
-rect 24 0 25 3
-rect 29 0 30 3
-rect 47 3 53 7
-rect 47 0 48 3
-rect 52 0 53 3
+rect -132 -19 -107 -7
 << metal1 >>
-rect 1 20 52 24
-rect 25 17 29 20
-rect 48 17 52 20
-rect 13 6 19 10
-rect 37 6 42 10
-rect 13 -4 17 6
-rect 1 -8 17 -4
-rect 13 -25 17 -8
-rect 25 -4 29 -1
-rect 48 -4 52 -1
-rect 25 -8 60 -4
-rect 25 -18 29 -8
-rect 13 -29 19 -25
-rect 25 -44 29 -36
-rect 14 -55 19 -51
-rect 25 -64 29 -62
-rect 1 -68 29 -64
-<< metal2 >>
-rect 9 6 36 10
-rect 9 -25 13 6
-rect 1 -29 13 -25
-rect 9 -55 13 -29
-<< ntransistor >>
-rect 24 -28 30 -26
-rect 24 -54 30 -52
-<< ptransistor >>
-rect 24 7 30 9
-rect 47 7 53 9
-<< polycontact >>
-rect 19 6 23 10
-rect 42 6 46 10
-rect 19 -29 23 -25
-rect 19 -55 23 -51
-<< ndcontact >>
-rect 25 -22 29 -18
-rect 25 -36 29 -32
-rect 25 -48 29 -44
-rect 25 -62 29 -58
-<< pdcontact >>
-rect 25 13 29 17
-rect 48 13 52 17
-rect 25 -1 29 3
-rect 48 -1 52 3
-<< pad >>
-rect 36 6 42 10
-rect 13 -55 19 -51
+rect -127 -11 -113 -7
+rect -134 -37 -130 -11
+rect -127 -19 -113 -15
+rect -127 -33 -123 -19
+rect -110 -41 -106 -11
+rect -120 -45 -106 -41
+use nmos  nmos_0
+timestamp 1748092009
+transform 0 -1 -145 -1 0 -32
+box -3 -24 9 -11
+use nmos  nmos_1
+timestamp 1748092009
+transform 0 1 -105 -1 0 -40
+box -3 -24 9 -11
+use pmos  pmos_0
+timestamp 1748092460
+transform 0 -1 -147 -1 0 -8
+box -1 -26 11 -13
+use pmos  pmos_1
+timestamp 1748092460
+transform 0 1 -93 -1 0 -8
+box -1 -26 11 -13
 << labels >>
-rlabel metal2 1 -29 9 -25 3 A
-rlabel metal1 1 -8 9 -4 3 B
-rlabel metal1 1 -68 15 -64 1 Gnd
-rlabel metal1 1 20 15 24 5 Vdd
-rlabel space 54 -9 89 -3 7 nand
+rlabel pwell -127 -49 -123 -45 1 Gnd
+rlabel metal1 -127 -11 -113 -7 5 Vdd
+rlabel metal1 -134 -37 -130 -11 3 A
+rlabel metal1 -127 -33 -123 -15 1 NAND
+rlabel metal1 -110 -45 -106 -11 7 B
 << end >>

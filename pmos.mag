@@ -1,23 +1,19 @@
 magic
 tech scmos
-timestamp 1747633640
-<< pwell >>
+timestamp 1748092460
+<< nwell >>
 rect -1 -26 11 -15
 << polysilicon >>
 rect 4 -20 6 -17
 rect 4 -26 6 -24
-<< ndiffusion >>
+<< pdiffusion >>
 rect 3 -24 4 -20
 rect 6 -24 7 -20
-<< ntransistor >>
+<< ptransistor >>
 rect 4 -24 6 -20
 << polycontact >>
 rect 3 -17 7 -13
-<< ndcontact >>
+<< pdcontact >>
 rect -1 -24 3 -20
 rect 7 -24 11 -20
-<< labels >>
-rlabel ndcontact -1 -24 3 -20 2 source
-rlabel ndcontact 7 -24 11 -20 1 drain
-rlabel polycontact 3 -17 7 -13 1 gate
 << end >>
