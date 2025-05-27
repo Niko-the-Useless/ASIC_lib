@@ -1,15 +1,9 @@
 magic
 tech scmos
-timestamp 1748092948
+timestamp 1748362827
 << metal1 >>
-rect -1 -11 3 -3
-rect -5 -21 -1 -14
-rect -9 -25 -1 -21
-rect -5 -32 -1 -25
-rect 3 -21 7 -14
-rect 3 -25 11 -21
-rect 3 -32 7 -25
-rect -1 -43 3 -35
+rect -5 -32 -1 -14
+rect 3 -32 7 -14
 use nmos  nmos_0
 timestamp 1748092009
 transform 1 0 -2 0 -1 -50
@@ -18,9 +12,4 @@ use pmos  pmos_0
 timestamp 1748092460
 transform 1 0 -4 0 1 6
 box -1 -26 11 -13
-<< labels >>
-rlabel metal1 -9 -25 -1 -21 3 IN
-rlabel metal1 3 -25 11 -21 7 OUT
-rlabel metal1 -1 -11 3 -3 5 Q
-rlabel metal1 -1 -43 3 -35 1 NQ
 << end >>
