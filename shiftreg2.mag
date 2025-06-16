@@ -1,0 +1,28 @@
+magic
+tech scmos
+timestamp 1749982892
+<< metal1 >>
+rect 76 45 106 49
+rect 77 0 105 4
+<< metal2 >>
+rect 27 49 127 53
+rect 27 32 31 49
+rect 67 -3 71 28
+rect 83 -3 87 28
+rect 123 24 127 49
+rect 147 -3 151 28
+rect 163 -3 167 28
+<< m2contact >>
+rect 67 -7 71 -3
+rect 83 -7 87 -3
+rect 147 -7 151 -3
+rect 163 -7 167 -3
+use TSPCff  TSPCff_0
+timestamp 1749982892
+transform 1 0 32 0 1 35
+box -32 -35 55 14
+use TSPCff  TSPCff_1
+timestamp 1749982892
+transform 1 0 112 0 1 35
+box -32 -35 55 14
+<< end >>

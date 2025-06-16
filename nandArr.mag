@@ -1,0 +1,27 @@
+magic
+tech scmos
+timestamp 1749993027
+<< metal1 >>
+rect 108 102 140 106
+rect 232 102 268 106
+rect 359 102 394 106
+rect 110 75 139 78
+rect 229 75 269 78
+rect 362 75 393 78
+use muxNand4  muxNand4_0
+timestamp 1749993027
+transform 1 0 0 0 1 8
+box 0 -8 123 98
+use muxNand4  muxNand4_1
+timestamp 1749993027
+transform 1 0 126 0 1 8
+box 0 -8 123 98
+use muxNand4  muxNand4_2
+timestamp 1749993027
+transform 1 0 252 0 1 8
+box 0 -8 123 98
+use muxNand4  muxNand4_3
+timestamp 1749993027
+transform 1 0 378 0 1 8
+box 0 -8 123 98
+<< end >>

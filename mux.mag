@@ -1,0 +1,35 @@
+magic
+tech scmos
+timestamp 1748844171
+<< polysilicon >>
+rect 5 2 7 4
+rect 5 -4 7 -2
+<< metal1 >>
+rect 8 28 11 32
+rect 8 7 15 11
+rect 4 2 8 4
+rect 1 -2 4 2
+rect 4 -4 8 -2
+rect 11 2 15 7
+rect 11 -2 18 2
+rect 11 -7 15 -2
+rect 8 -11 15 -7
+rect 8 -32 11 -28
+<< metal2 >>
+rect 11 -28 15 28
+<< polycontact >>
+rect 4 28 8 32
+rect 4 -2 8 2
+rect 4 -32 8 -28
+<< m2contact >>
+rect 11 28 15 32
+rect 11 -32 15 -28
+use transgate  transgate_0
+timestamp 1748785089
+transform 1 0 5 0 1 39
+box -5 -37 7 -9
+use transgate  transgate_1
+timestamp 1748785089
+transform 1 0 5 0 1 7
+box -5 -37 7 -9
+<< end >>

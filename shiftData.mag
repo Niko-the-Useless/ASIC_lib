@@ -1,0 +1,31 @@
+magic
+tech scmos
+timestamp 1749990304
+<< metal1 >>
+rect 312 218 348 222
+rect 641 218 676 222
+rect 967 218 1000 222
+rect 310 173 350 177
+rect 640 173 680 177
+rect 966 173 1003 177
+<< metal2 >>
+rect 281 222 354 226
+rect 605 222 681 226
+rect 935 222 1011 226
+use shiftreg  shiftreg_0
+timestamp 1749990304
+transform 1 0 -4 0 1 166
+box 0 0 329 60
+use shiftreg  shiftreg_1
+timestamp 1749990304
+transform 1 0 323 0 1 166
+box 0 0 329 60
+use shiftreg  shiftreg_2
+timestamp 1749990304
+transform 1 0 650 0 1 166
+box 0 0 329 60
+use shiftreg  shiftreg_3
+timestamp 1749990304
+transform 1 0 977 0 1 166
+box 0 0 329 60
+<< end >>

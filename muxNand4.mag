@@ -1,0 +1,65 @@
+magic
+tech scmos
+timestamp 1749993027
+<< pwell >>
+rect 25 70 90 80
+<< nwell >>
+rect 25 84 90 94
+<< ndiffusion >>
+rect 36 74 103 77
+<< pdiffusion >>
+rect 36 87 103 90
+<< metal1 >>
+rect 6 94 117 98
+rect 20 87 24 94
+rect 28 84 32 91
+rect 36 87 40 94
+rect 91 84 95 91
+rect 99 87 103 94
+rect 20 80 110 84
+rect 20 70 24 77
+rect 99 73 103 80
+rect 6 67 117 70
+rect 0 30 14 34
+rect 50 30 60 34
+rect 0 -4 3 30
+rect 17 -4 21 4
+rect 0 -8 1 -4
+rect 39 -4 43 4
+rect 57 -4 60 30
+rect 59 -8 60 -4
+rect 63 30 77 34
+rect 113 30 123 34
+rect 63 -4 66 30
+rect 80 -4 84 4
+rect 63 -8 64 -4
+rect 102 -4 106 4
+rect 120 -4 123 30
+rect 122 -8 123 -4
+<< metal2 >>
+rect 10 13 13 17
+rect 47 13 50 17
+rect 73 13 76 17
+rect 110 13 113 17
+<< m2contact >>
+rect 6 13 10 17
+rect 50 13 54 17
+rect 1 -8 5 -4
+rect 17 -8 21 -4
+rect 39 -8 43 -4
+rect 55 -8 59 -4
+rect 69 13 73 17
+rect 113 13 117 17
+rect 64 -8 68 -4
+rect 80 -8 84 -4
+rect 102 -8 106 -4
+rect 118 -8 122 -4
+use muxNand  muxNand_0
+timestamp 1749990304
+transform 1 0 17 0 1 67
+box -11 -67 37 31
+use muxNand  muxNand_1
+timestamp 1749990304
+transform 1 0 80 0 1 67
+box -11 -67 37 31
+<< end >>

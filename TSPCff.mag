@@ -1,0 +1,125 @@
+magic
+tech scmos
+timestamp 1749982892
+<< pwell >>
+rect 4 -16 52 -12
+rect -17 -31 52 -16
+<< nwell >>
+rect -17 -5 52 10
+rect -17 -9 -6 -5
+<< polysilicon >>
+rect -15 3 -12 5
+rect -8 3 -6 5
+rect 6 3 9 5
+rect 13 3 15 5
+rect 27 3 30 5
+rect 34 3 36 5
+rect -15 -4 -12 -2
+rect -8 -4 -6 -2
+rect 6 -19 9 -17
+rect 13 -19 15 -17
+rect -15 -26 -12 -24
+rect -8 -26 -6 -24
+rect 27 -19 30 -17
+rect 34 -19 36 -17
+rect 6 -26 9 -24
+rect 13 -26 15 -24
+rect 27 -26 30 -24
+rect 34 -26 36 -24
+<< ndiffusion >>
+rect 9 -17 13 -16
+rect -12 -24 -8 -23
+rect -12 -27 -8 -26
+rect 9 -24 13 -19
+rect 30 -17 34 -16
+rect 9 -27 13 -26
+rect 30 -24 34 -19
+rect 30 -27 34 -26
+<< pdiffusion >>
+rect -12 5 -8 6
+rect -12 -2 -8 3
+rect 9 5 13 6
+rect 9 2 13 3
+rect 30 5 34 6
+rect 30 2 34 3
+rect -12 -5 -8 -4
+<< metal1 >>
+rect -12 10 50 14
+rect -27 2 -19 6
+rect -1 2 2 6
+rect 17 2 23 6
+rect 46 3 50 10
+rect -27 -8 -23 2
+rect -32 -12 -23 -8
+rect 9 -5 13 -2
+rect 17 -5 20 2
+rect -19 -8 -15 -5
+rect -27 -23 -23 -12
+rect -12 -16 -8 -9
+rect 9 -9 20 -5
+rect 30 -7 34 -2
+rect 9 -12 13 -9
+rect -12 -19 2 -16
+rect -8 -20 2 -19
+rect 17 -23 20 -9
+rect 23 -16 27 -12
+rect 30 -11 35 -7
+rect 39 -11 41 -7
+rect 46 -11 51 -7
+rect 30 -12 34 -11
+rect -27 -27 -19 -23
+rect -1 -27 2 -23
+rect 17 -27 23 -23
+rect 46 -31 50 -23
+rect -12 -35 50 -31
+<< metal2 >>
+rect -5 -8 -1 2
+rect -15 -12 23 -8
+rect -5 -23 -1 -12
+<< ntransistor >>
+rect 9 -19 13 -17
+rect -12 -26 -8 -24
+rect 30 -19 34 -17
+rect 9 -26 13 -24
+rect 30 -26 34 -24
+<< ptransistor >>
+rect -12 3 -8 5
+rect 9 3 13 5
+rect 30 3 34 5
+rect -12 -4 -8 -2
+<< polycontact >>
+rect -19 2 -15 6
+rect -19 -5 -15 -1
+rect 2 2 6 6
+rect 23 2 27 6
+rect 2 -20 6 -16
+rect -19 -27 -15 -23
+rect 2 -27 6 -23
+rect 23 -20 27 -16
+rect 23 -27 27 -23
+<< ndcontact >>
+rect 9 -16 13 -12
+rect 30 -16 34 -12
+rect -12 -23 -8 -19
+rect -12 -31 -8 -27
+rect 9 -31 13 -27
+rect 30 -31 34 -27
+<< pdcontact >>
+rect -12 6 -8 10
+rect 9 6 13 10
+rect 30 6 34 10
+rect 9 -2 13 2
+rect 30 -2 34 2
+rect -12 -9 -8 -5
+<< m2contact >>
+rect -5 2 -1 6
+rect -19 -12 -15 -8
+rect 23 -12 27 -8
+rect 35 -11 39 -7
+rect 51 -11 55 -7
+rect -5 -27 -1 -23
+use inverter  inverter_0
+timestamp 1749982892
+transform 1 0 61 0 1 -7
+box -22 -20 -9 14
+<< end >>

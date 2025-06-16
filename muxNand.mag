@@ -1,0 +1,34 @@
+magic
+tech scmos
+timestamp 1749990304
+<< metal1 >>
+rect -7 27 27 30
+rect 7 13 29 17
+rect -11 0 37 3
+rect -11 -17 -7 -10
+rect 7 -33 11 -3
+rect 0 -37 11 -33
+rect 15 -33 19 -3
+rect 33 -16 37 -10
+rect 15 -37 26 -33
+<< metal2 >>
+rect -11 -17 -7 27
+rect 33 -16 37 27
+<< m2contact >>
+rect -11 27 -7 31
+rect 33 27 37 31
+rect -11 -21 -7 -17
+rect 33 -20 37 -16
+use mux  mux_0
+timestamp 1748844171
+transform 1 0 -11 0 1 -35
+box 0 -32 18 32
+use mux  mux_1
+timestamp 1748844171
+transform -1 0 37 0 1 -35
+box 0 -32 18 32
+use nand2  nand2_0
+timestamp 1749937379
+transform 1 0 143 0 1 35
+box -140 -42 -120 -8
+<< end >>

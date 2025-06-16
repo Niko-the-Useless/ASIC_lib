@@ -1,15 +1,15 @@
 magic
 tech scmos
-timestamp 1748362827
+timestamp 1748785089
 << metal1 >>
 rect -5 -32 -1 -14
 rect 3 -32 7 -14
 use nmos  nmos_0
-timestamp 1748092009
+timestamp 1748785089
 transform 1 0 -2 0 -1 -50
-box -3 -24 9 -11
+box -3 -24 9 -13
 use pmos  pmos_0
-timestamp 1748092460
+timestamp 1748785089
 transform 1 0 -4 0 1 6
-box -1 -26 11 -13
+box -1 -26 11 -15
 << end >>
